@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+
+
+    .rings {
+        margin: 10px;
+        background-color: #c49144;
+
+
+        img {
+            width: 180px;
+            height: 220px;
+            cursor: pointer;
+        }
+
+        input {
+            margin-left: 30px;
+        }
+
+        .addingToCart {
+            margin-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+
+    .layout {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h1 {
+            color: #ba9f47;
+        }
+
+        p {
+            color: #7a7575;
+            width: 80%;
+            font-size: 16px;
+        }
+
+        a {
+            color: #c5aa51;
+            margin-left: 7px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        span {
+            color: #7a7575;
+            font-size: 14px;
+        }
+
+        .access {
+            margin-bottom: 30px;
+        }
+
+        .pagesNumber {
+            margin: auto;
+            margin-top: 50px;
+
+            span {
+                padding: 10px;
+                border: 1px solid #c5aa51;
+                cursor: pointer;
+                color: #000;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            span:hover {
+                background-color: #c5aa51;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #a29b9b;
+
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        transition: 0.5s all ease-in-out;
+    }
+
+    a:hover {
+        color: #000;
+    }
+}

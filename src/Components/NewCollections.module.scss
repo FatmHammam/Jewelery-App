@@ -1,0 +1,39 @@
+.container {
+    width: 75%;
+    margin: 100px auto;
+    cursor: pointer;
+
+    .slide {
+        width: 100%;
+        margin: auto;
+        background-color: #000;
+        padding: 50px 30px;
+
+        .img {
+            width: 25%;
+            margin-left: 100px;
+        }
+
+        p {
+            color: #fff;
+            float: right;
+            margin-top: 100px;
+            margin-right: 210px;
+        }
+
+        h2 {
+            color: #fff;
+            float: right;
+            margin-bottom: 100px;
+        }
+
+        .line {
+            width: 130px;
+            height: 2px;
+            border-radius: 3px;
+            background-image: linear-gradient(to right, #fff, #222);
+            margin-bottom: 5px;
+            transform: translate(753px, 130px);
+        }
+    }
+}
